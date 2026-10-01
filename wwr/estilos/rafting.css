@@ -4,6 +4,7 @@
   --cor-primaria: #0F4C5C;   /* teal profundo do rio */
   --cor-secundaria: #E8743B; /* laranja colete salva-vidas */
   --cor-destaque1: #14262B;  /* texto escuro / sobreposição */
+  --cor-hover: #B5460F;      /* laranja escuro: contraste AA sobre o fundo claro */
   --cor-fundo: #F5F7F6;      /* espuma da água */
   --fonte-titulo: 'Oswald', sans-serif;
   --fonte-body: 'Work Sans', sans-serif;
@@ -38,12 +39,14 @@ nav, p, section, article {
   padding: 8px;
 }
 
-/* Cabeçalho */
+/* Cabeçalho: CSS Grid (logo | navegação) */
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  justify-content: space-between;
+  gap: 16px;
   padding: 16px;
+  border-bottom: 2px solid var(--cor-primaria);
 }
 
 .logo {
@@ -52,13 +55,21 @@ header {
   border-radius: 4px;
 }
 
+/* Navegação: CSS Flexbox */
 header nav {
   display: flex;
-  gap: 20px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px 20px;
   margin: 0;
 }
 
 header nav a {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 6px 12px;
+  border: 1px solid var(--cor-primaria);
+  background-color: #fff;
   color: var(--cor-primaria);
   text-decoration: none;
   font-family: var(--fonte-titulo);
@@ -67,7 +78,8 @@ header nav a {
 }
 
 header nav a:hover {
-  color: var(--cor-secundaria);
+  color: var(--cor-hover);
+  text-decoration: underline;
 }
 
 /* Hero */
@@ -119,8 +131,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
   padding: 16px;
   font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
 }
 
 .redes-sociais {
@@ -138,4 +157,84 @@ footer {
 .redes-sociais img {
   width: 32px;
   height: 32px;
+}
+
+/* História: texto | imagem | texto, com o título no topo */
+.historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 8px 16px;
+  background-color: #E4EAE8;
+}
+
+.historia h2 {
+  grid-column: 1 / -1;
+}
+
+.historia p {
+  margin: 0;
+  padding: 0;
+}
+
+.historia img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* A aventura está te esperando!: 5 figuras na horizontal */
+.aventura {
+  background-color: #fff;
+  border: 1px solid #c5cfcc;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.galeria figure {
+  flex: 1 1 140px;
+  margin: 0;
+}
+
+.galeria img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #cfd8d6;
+}
+
+.galeria figcaption {
+  margin-top: 6px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .historia {
+    grid-template-columns: 1fr;
+  }
+
+  .historia img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  header nav {
+    justify-content: center;
+  }
 }

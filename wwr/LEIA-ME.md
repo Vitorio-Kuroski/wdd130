@@ -27,3 +27,14 @@ Se preferir trocar por outras fotos/logos, tem mais opções em:
 - https://byui-cse.github.io/wdd130-ww-course-pt/resources/wwr-logos-repo.html
 
 Depois de salvar as 6 imagens, a página abre normalmente com Live Server.
+
+## S04 — imagens da seção História e da galeria
+
+As 6 imagens abaixo já estão em wwr/imagens/ (WebP, otimizadas):
+
+- historia.webp (500x375)
+- salto-rio-negro.webp, corredeira-paranapanema.webp, corredeira-jacare.webp,
+  corredeira-iguacu.webp, corredeira-tibagi.webp (300x225 cada)
+
+Fotos do repositório de imagens gratuitas do curso. hero.jpg e
+cliente-feliz.jpg também foram otimizadas.
