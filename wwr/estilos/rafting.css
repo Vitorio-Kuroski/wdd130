@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Work+Sans:wght@400;600&display=swap');
-
 :root {
   --cor-primaria: #0F4C5C;   /* teal profundo do rio */
   --cor-secundaria: #E8743B; /* laranja colete salva-vidas */
   --cor-destaque1: #14262B;  /* texto escuro / sobreposição */
   --cor-hover: #B5460F;      /* laranja escuro: contraste AA sobre o fundo claro */
   --cor-fundo: #F5F7F6;      /* espuma da água */
-  --fonte-titulo: 'Oswald', sans-serif;
-  --fonte-body: 'Work Sans', sans-serif;
+  --fonte-titulo: 'Trebuchet MS', 'Segoe UI', Verdana, sans-serif;
+  --fonte-body: 'Segoe UI', Verdana, Arial, sans-serif;
 }
 
 * {
@@ -73,7 +71,7 @@ header nav a {
   color: var(--cor-primaria);
   text-decoration: none;
   font-family: var(--fonte-titulo);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.3px;
 }
 
@@ -142,7 +140,7 @@ footer p {
   padding: 0;
 }
 
-.redes-sociais {
+.socialmedia {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
@@ -150,11 +148,11 @@ footer p {
   padding: 0;
 }
 
-.redes-sociais a {
+.socialmedia a {
   text-decoration: none;
 }
 
-.redes-sociais img {
+.socialmedia img {
   width: 32px;
   height: 32px;
 }
