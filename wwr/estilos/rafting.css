@@ -140,7 +140,7 @@ footer p {
   padding: 0;
 }
 
-.socialmedia {
+.redes-sociais {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
@@ -148,11 +148,11 @@ footer p {
   padding: 0;
 }
 
-.socialmedia a {
+.redes-sociais a {
   text-decoration: none;
 }
 
-.socialmedia img {
+.redes-sociais img {
   width: 32px;
   height: 32px;
 }
