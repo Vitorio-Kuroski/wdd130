@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fale com a Iguaçu Rafting: endereço, telefones, e-mail, mapa e formulário para tirar dúvidas sobre reservas e passeios de rafting no Paraná.">
+  <meta name="author" content="Vitorio Lucas Kuroski">
+  <title>Fale Conosco - Iguaçu Rafting</title>
+  <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body>
+
+  <header>
+    <img src="imagens/logo.jpg" alt="Logotipo Iguaçu Rafting" class="logo">
+    <nav>
+      <a href="index.html">Página Inicial</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="passeios.html">Passeios</a>
+      <a href="contato.html">Fale Conosco</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fale Conosco</h1>
+
+    <div class="contato">
+      <section class="info-empresa">
+        <h2>Informações da Empresa</h2>
+        <address>
+          <p>Rodovia das Cataratas, km 18<br>Foz do Iguaçu, PR, 85853-000</p>
+          <p>Telefone: <a href="tel:+554535290000">(45) 3529-0000</a><br>WhatsApp: <a href="tel:+5545999990000">(45) 99999-0000</a></p>
+          <p>E-mail: <a href="mailto:contato@iguacurafting.com.br">contato@iguacurafting.com.br</a></p>
+        </address>
+        <iframe class="mapa" title="Mapa da localização da Iguaçu Rafting em Foz do Iguaçu" src="https://maps.google.com/maps?q=Parque%20Nacional%20do%20Igua%C3%A7u,%20Foz%20do%20Igua%C3%A7u&amp;z=12&amp;output=embed" width="400" height="250" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section class="formulario">
+        <h2>Envie sua Mensagem</h2>
+        <form action="#" method="post">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+
+          <fieldset>
+            <legend>Finalidade da mensagem</legend>
+            <label><input type="radio" name="finalidade" value="consulta-geral" checked> Consulta Geral</label>
+            <label><input type="radio" name="finalidade" value="reserva"> Pergunta sobre Reserva</label>
+            <label><input type="radio" name="finalidade" value="sugestao-site"> Sugestão de Site</label>
+          </fieldset>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+          <label class="newsletter"><input type="checkbox" name="newsletter" value="sim"> Quero receber a newsletter mensal</label>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </div>
+
+    <section class="equipe">
+      <h2>Nossa Equipe</h2>
+      <div class="galeria">
+        <figure>
+          <img src="imagens/funcionario-rafael.webp" alt="Foto de perfil de Rafael Souza" width="128" height="128" loading="lazy">
+          <figcaption>Rafael Souza<br>Fundador e Diretor</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/funcionario-julia.webp" alt="Foto de perfil de Júlia Tanaka" width="128" height="128" loading="lazy">
+          <figcaption>Júlia Tanaka<br>Guia-Chefe de Rafting</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/funcionario-marcos.webp" alt="Foto de perfil de Marcos Oliveira" width="128" height="128" loading="lazy">
+          <figcaption>Marcos Oliveira<br>Coordenador de Reservas</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Iguaçu Rafting | Vitorio Lucas Kuroski</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="imagens/facebook.svg" alt="Facebook"></a>
+      <a href="https://instagram.com"><img src="imagens/instagram.svg" alt="Instagram"></a>
+      <a href="https://twitter.com"><img src="imagens/twitter.svg" alt="Twitter/X"></a>
+    </nav>
+  </footer>
+
+</body>
+</html>

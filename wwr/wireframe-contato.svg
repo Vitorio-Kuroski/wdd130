@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="900" viewBox="0 0 840 900" font-family="Arial, sans-serif" font-size="14" fill="none" stroke="#555">
+  <title>Wireframe - Fale Conosco (contato.html)</title>
+  <rect x="0" y="0" width="840" height="900" fill="#fff" stroke="none"/>
+  <!-- Cabeçalho -->
+  <rect x="16" y="16" width="808" height="72"/>
+  <rect x="32" y="28" width="80" height="48"/><text x="50" y="57" fill="#555" stroke="none">LOGO</text>
+  <g fill="#555" stroke="none">
+    <text x="300" y="57">Página Inicial | Sobre Nós | Passeios | Fale Conosco</text>
+  </g>
+  <!-- Título -->
+  <text x="350" y="130" font-size="24" fill="#333" stroke="none">Fale Conosco</text>
+  <!-- Coluna esquerda: informações -->
+  <rect x="16" y="150" width="396" height="520"/>
+  <text x="120" y="180" font-size="18" fill="#333" stroke="none">Informações da Empresa</text>
+  <g fill="#555" stroke="none">
+    <text x="32" y="215">Endereço</text>
+    <text x="32" y="245">Telefone / WhatsApp</text>
+    <text x="32" y="275">E-mail</text>
+  </g>
+  <rect x="32" y="300" width="364" height="250"/>
+  <line x1="32" y1="300" x2="396" y2="550"/><line x1="396" y1="300" x2="32" y2="550"/>
+  <text x="170" y="430" fill="#555" stroke="none">Mapa do Google</text>
+  <!-- Coluna direita: formulário -->
+  <rect x="428" y="150" width="396" height="520"/>
+  <text x="540" y="180" font-size="18" fill="#333" stroke="none">Envie sua Mensagem</text>
+  <g fill="#555" stroke="none"><text x="444" y="210">Nome</text><text x="444" y="270">E-mail</text><text x="444" y="330">Finalidade da mensagem</text><text x="444" y="450">Mensagem</text></g>
+  <rect x="444" y="218" width="364" height="30"/>
+  <rect x="444" y="278" width="364" height="30"/>
+  <rect x="444" y="338" width="364" height="90"/>
+  <g fill="#555" stroke="none"><text x="470" y="362">Consulta Geral</text><text x="470" y="390">Pergunta sobre Reserva</text><text x="470" y="418">Sugestão de Site</text></g>
+  <circle cx="458" cy="357" r="6"/><circle cx="458" cy="385" r="6"/><circle cx="458" cy="413" r="6"/>
+  <rect x="444" y="458" width="364" height="110"/>
+  <rect x="444" y="582" width="12" height="12"/><text x="464" y="593" fill="#555" stroke="none">Quero receber a newsletter mensal</text>
+  <rect x="444" y="612" width="160" height="40" fill="#ddd"/><text x="462" y="637" fill="#333" stroke="none">Enviar Mensagem</text>
+  <!-- Equipe -->
+  <rect x="16" y="686" width="808" height="150"/>
+  <text x="360" y="712" font-size="18" fill="#333" stroke="none">Nossa Equipe</text>
+  <circle cx="150" cy="765" r="40"/><circle cx="420" cy="765" r="40"/><circle cx="690" cy="765" r="40"/>
+  <g fill="#555" stroke="none"><text x="100" y="825">Nome + Cargo</text><text x="370" y="825">Nome + Cargo</text><text x="640" y="825">Nome + Cargo</text></g>
+  <!-- Rodapé -->
+  <rect x="16" y="850" width="808" height="40"/>
+  <text x="32" y="875" fill="#555" stroke="none">© Copyright | Nome</text>
+  <text x="690" y="875" fill="#555" stroke="none">[f] [ig] [x]</text>
+</svg>
