@@ -38,3 +38,12 @@ As 6 imagens abaixo já estão em wwr/imagens/ (WebP, otimizadas):
 
 Fotos do repositório de imagens gratuitas do curso. hero.jpg e
 cliente-feliz.jpg também foram otimizadas.
+
+## S05 — Página Fale Conosco (contato.html)
+
+- contato.html foi criado a partir de uma cópia de sobre.html (mesmo
+  cabeçalho, navegação e rodapé).
+- Fotos de perfil da equipe (funcionario-rafael.webp, funcionario-julia.webp,
+  funcionario-marcos.webp, 128x128): retratos de exemplo do randomuser.me.
+- wireframe-contato.svg é um esboço do layout. O curso pede um wireframe
+  feito no moqups.com (ou ferramenta equivalente); use este arquivo como base.
